@@ -1,11 +1,14 @@
 # Your code goes here!
-class Dog 
+class Dog
+  def initialize (name)
+    @name = name
+  end
   def name=(name_of_dog)
-    @new_dogs_name = name_of_dog
+    @name = name_of_dog
   end 
   
   def name 
-    @new_dogs_name
+    @name
   end
   
   def bark 
